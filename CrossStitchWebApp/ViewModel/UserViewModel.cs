@@ -1,0 +1,12 @@
+﻿namespace CrossStitchWebApp.ViewModel
+{
+    public class UserViewModel
+    {
+        public string Id { get; set; }
+        public string UserName { get; set; }
+
+        public string UserSurname { get; set; }
+        public string ProfileImageUrl { get; set; }
+
+    }
+}

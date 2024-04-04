@@ -1,0 +1,30 @@
+﻿﻿@using CrossStitchWebApp.ViewModel;
+@model UserDetailViewModel
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4">
+        Page Heading
+        <small>Secondary Text</small>
+    </h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" src="@Model.ProfileImageUrl" alt="">
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="my-3">Name: @Model.UserName</h3>
+            <p>Surname: @Model.UserSurname</p>
+            <h3 class="my-3">Location</h3>
+            <li>City: @Model.City</li>
+            <li>State: @Model.State</li>
+        </div>
+
+    </div>
+</div>
+<!-- /.container -->
