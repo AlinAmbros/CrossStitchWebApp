@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossStitchWebApp", "CrossStitchWebApp\CrossStitchWebApp.csproj", "{0F054949-500B-445F-8AF0-945C89D63516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossStitchWebApp", "CrossStitchWebApp\CrossStitchWebApp.csproj", "{0F054949-500B-445F-8AF0-945C89D63516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossStitchGroupWebApp.Tests", "CrossStitchGroupWebApp.Tests\CrossStitchGroupWebApp.Tests.csproj", "{EBE377C3-65E1-4C3E-BA26-8D503AD17F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0F054949-500B-445F-8AF0-945C89D63516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F054949-500B-445F-8AF0-945C89D63516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F054949-500B-445F-8AF0-945C89D63516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE377C3-65E1-4C3E-BA26-8D503AD17F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE377C3-65E1-4C3E-BA26-8D503AD17F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE377C3-65E1-4C3E-BA26-8D503AD17F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE377C3-65E1-4C3E-BA26-8D503AD17F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
